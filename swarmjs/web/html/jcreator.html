@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap Login Form Template</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+        <link rel="stylesheet" href={{static_url("assets/bootstrap/css/bootstrap.min.css")}}>
+        <link rel="stylesheet" href={{static_url("assets/font-awesome/css/font-awesome.min.css")}}>
+		<link rel="stylesheet" href={{static_url("assets/css/form-elements.css")}}>
+        <link rel="stylesheet" href={{static_url("assets/css/style.css")}}>
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href={{static_url("assets/ico/favicon.png")}}>
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href={{static_url("assets/ico/apple-touch-icon-144-precomposed.png")}}>
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href={{static_url("assets/ico/apple-touch-icon-114-precomposed.png")}}>
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href={{static_url("assets/ico/apple-touch-icon-72-precomposed.png")}}>
+        <link rel="apple-touch-icon-precomposed" href={{static_url("assets/ico/apple-touch-icon-57-precomposed.png")}}>
+
+    </head>
+
+    <body>
+
+        <!-- Top content -->
+        <div class="top-content">
+        	
+            <div class="inner-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2 text">
+                            <h1> <strong>Elastic JS A Map/Reduce Framework </strong></h1>
+                            <div class="description">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-3 form-box">
+                        	<div class="form-top">
+                        		<div class="form-top-left">
+                        			<h3>Connect to Elastic JS</h3>
+                            		<p>connect to Elastic JS Map/Reduce as:</p>
+                        		</div>
+                        		<div class="form-top-right">
+                        			<i class="fa fa-server"></i>
+                        		</div>
+                            </div>
+                            <div class="form-bottom">
+			                    <form  enctype="multipart/form-data" role="form" action="/job/creator/upload" method="post" class="login-form">
+
+                                <div class="row">
+                                    <div class="file-input btn btn-block btn-warning btn-file btn-lg">
+                                          Upload Your Data &hellip; <input type="file" multiple name="filearg1">
+                                    </div>
+                                    <div class="file-input btn btn-block btn-success btn-file btn-lg">
+                                          Upload Your Script &hellip; <input type="file" multiple name="filearg2">
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class ="row">
+                                    <input type ="submit" class="btn btn-block btn-primary btn-lg" value="Submit Job"></input>
+                                </div>
+                            </div>
+
+			                    </form>
+		                    </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+
+
+        <!-- Javascript -->
+        <script src={{static_url("assets/js/jquery-1.11.1.min.js")}}></script>
+        <script src={{static_url("assets/bootstrap/js/bootstrap.min.js")}}></script>
+        <script src={{static_url("assets/js/jquery.backstretch.min.js")}}></script>
+        <script src={{static_url("assets/js/scripts.js")}}></script>
+        
+        <!--[if lt IE 10]>
+            <script src={{static_url("assets/js/placeholder.js")}}></script>
+        <![endif]-->
+
+    </body>
+
+</html>
